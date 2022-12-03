@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#ffc6b9, #ffa693);
+}
+
+.card {
+    width: 320px;
+    height: 400px;
+    perspective: 1000px;
+}
+
+.card .front-face {
+    /* background: url(front-img); */
+}
+
+.card .back-face {}
