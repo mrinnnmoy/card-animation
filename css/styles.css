@@ -154,6 +154,41 @@ body {
     animation-delay: 2s;
 }
 
+/* social-icons */
+.social-menu{
+    position: relative;
+    width: 280px;
+    height: 280px;
+    background: rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-menu .toggle{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    cursor: pointer;
+    font-size: 2em;
+    transition: 1.25s;
+}
+
+.social-menu.active .toggle{
+    transform: rotate(360deg);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.15), 0 0 0 2px
+    #333, 0 0 0 8px #fff;
+}
+
+
+
 @keyframes loading {
 
     0%,
