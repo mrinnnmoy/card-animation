@@ -1,3 +1,4 @@
+// Pre-Loader
 const loader = document.querySelector(".loader");
 
 window.addEventListener("load", () => {
@@ -9,3 +10,12 @@ window.addEventListener("load", () => {
     }, 500);
   }, 2500);
 });
+
+
+// Share icon
+let toggle = document.querySelector(".toggle");
+let menu = document.querySelector(".social-menu");
+
+toggle.onclick = function () {
+  menu.classList.toggle("active")
+}
